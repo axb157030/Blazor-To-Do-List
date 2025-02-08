@@ -1,0 +1,24 @@
+@page "/randommovebutton"
+
+<style>
+    .random-button {
+        position: absolute;
+    }
+</style>
+
+<button type="button" class="random-button btn btn-warning" @onclick="MoveButton" style="@buttonStyle">Click
+    me!</button>
+
+@code {
+    private string buttonStyle = "left: 50px; top: 50px;";
+
+    private void MoveButton()
+    {
+        var random = new Random();
+        var maxX = 800; // Set your desired maximum X coordinate
+        var maxY = 600; // Set your desired maximum Y coordinate
+        var randomX = random.Next(maxX);
+        var randomY = random.Next(maxY);
+        buttonStyle = $"left: {randomX}px; top: {randomY}px;";
+    }
+}

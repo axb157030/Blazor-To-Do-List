@@ -36,3 +36,4 @@ C:\Users\amine\OneDrive\Documents\C#\ASP.NET\ToDoListBlazor\obj\Debug\net8.0\ref
 C:\Users\amine\OneDrive\Documents\C#\ASP.NET\ToDoListBlazor\obj\Debug\net8.0\ToDoListBlazor.pdb
 C:\Users\amine\OneDrive\Documents\C#\ASP.NET\ToDoListBlazor\obj\Debug\net8.0\ToDoListBlazor.genruntimeconfig.cache
 C:\Users\amine\OneDrive\Documents\C#\ASP.NET\ToDoListBlazor\obj\Debug\net8.0\ref\ToDoListBlazor.dll
+C:\Users\amine\OneDrive\Documents\C#\ASP.NET\ToDoListBlazor\obj\Debug\net8.0\ToDoListBlazor.sourcelink.json
